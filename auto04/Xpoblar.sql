@@ -1,10 +1,12 @@
+--XPoblar--
+
+DELETE FROM ProductModelProductDescription;
+DELETE FROM ProductDescription;
 DELETE FROM SalesOrderDetail;
-DELETE FROM SalesOrderHeader;
-DELETE FROM Address;
-DELETE FROM CustomerAddress;
-DELETE FROM Customer;
 DELETE FROM Product;
 DELETE FROM ProductModel;
 DELETE FROM ProductCategory;
-DELETE FROM ProductModelProductDescription;
-DELETE FROM productDescription;
+DELETE FROM SalesOrderHeader;
+DELETE FROM CustomerAddress;
+DELETE FROM Address;
+DELETE FROM Customer;
