@@ -1,9 +1,9 @@
 ----------Definiendo y Poblando----------
 
-CREATE TABLE ProductsModels(productModelID NUMBER(11) NOT NULL,
-							name VARCHAR(50) NOT NULL,
-							catalogDescription VARCHAR(255),
-							detalle XMLTYPE);
+CREATE TABLE ProductsModels(productModelID NUMBER(11) NOT NULL, 
+                            name VARCHAR(50) NOT NULL,
+                            catalogDescription VARCHAR(255),
+                            detalle XMLTYPE);
 
 
 INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUES(1,'Classic Vest',NULL,
@@ -11,17 +11,17 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 <detalle>
   <edad minima="8" maxima="99"></edad>
   <materiales>
-	<material> tela de dril </material>
+    <material> tela de dril </material>
 	<material> forro de algodon </material>
 	<material> botones de madera </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
   </tallas>
   <garantia meses="0.5"></garantia>
   <origenes>
@@ -40,12 +40,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> malla </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0"></garantia>
   <origenes>
@@ -64,15 +64,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> protecciones de plastico </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0"></garantia>
   <origenes>
@@ -90,15 +90,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela impermeable </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0"></garantia>
   <origenes>
@@ -118,14 +118,14 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="10000"></peso>
@@ -146,14 +146,14 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="8000"></peso>
@@ -173,10 +173,10 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="14000"></peso>
@@ -196,15 +196,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="12000"></peso>
@@ -225,15 +225,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="10000"></peso>
@@ -253,10 +253,10 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="13000"></peso>
@@ -275,15 +275,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela de algodon </material>
   </materiales>
   <tallas>
-    <talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-    <talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+    <talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0.5"></garantia>
   <origenes>
@@ -302,9 +302,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela spandex </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="0.25"></garantia>
   <origenes>
@@ -322,12 +322,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela impermeable </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="0.25"></garantia>
   <origenes>
@@ -347,15 +347,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-    <talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+    <talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="14000"></peso>
@@ -375,11 +375,11 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="12000"></peso>
@@ -400,12 +400,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="10000"></peso>
@@ -426,12 +426,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="12000"></peso>
@@ -450,15 +450,15 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela de algodon </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="S"></talla>
-	<talla sexo="Nino", tamano="M"></talla>
-	<talla sexo="Nino", tamano="L"></talla>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="S"></talla>
+	<talla sexo="Nino" tamano="M"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0"></garantia>
   <origenes>
@@ -477,12 +477,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="13000"></peso>
@@ -502,12 +502,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="13500"></peso>
@@ -527,12 +527,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="14000"></peso>
@@ -552,12 +552,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="14000"></peso>
@@ -577,12 +577,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="14500"></peso>
@@ -601,12 +601,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela de algodon </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0"></garantia>
   <origenes>
@@ -628,8 +628,8 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="250000"></peso>
@@ -651,8 +651,8 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="280000"></peso>
@@ -674,8 +674,8 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="310000"></peso>
@@ -697,8 +697,8 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="300000"></peso>
@@ -720,8 +720,8 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-	<talla sexo="Hombre", tamano="M"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+	<talla sexo="Hombre" tamano="M"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="340000"></peso>
@@ -744,9 +744,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="320000"></peso>
@@ -769,9 +769,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="270000"></peso>
@@ -791,12 +791,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela spandex </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0.25"></garantia>
   <origenes>
@@ -817,9 +817,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="230000"></peso>
@@ -841,8 +841,8 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="450000"></peso>
@@ -864,9 +864,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="310000"></peso>
@@ -889,9 +889,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="280000"></peso>
@@ -911,9 +911,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela impermeable </material>
   </materiales>
   <tallas>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0.25"></garantia>
   <origenes>
@@ -931,9 +931,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> tela spandex y malla </material>
   </materiales>
   <tallas>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="0"></garantia>
   <origenes>
@@ -953,12 +953,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="11000"></peso>
@@ -979,10 +979,10 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="10000"></peso>
@@ -1002,12 +1002,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llantas de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="12000"></peso>
@@ -1026,12 +1026,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="3"></garantia>
   <peso peso="3000"></peso>
@@ -1051,9 +1051,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llanta de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="3"></garantia>
   <peso peso="1000"></peso>
@@ -1073,9 +1073,9 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llanta de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
   </tallas>
   <garantia meses="4"></garantia>
   <peso peso="2000"></peso>
@@ -1095,13 +1095,13 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llanta de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Nino", tamano="L"></talla>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Nino" tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="1500"></peso>
@@ -1121,12 +1121,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llanta de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="12"></garantia>
   <peso peso="1500"></peso>
@@ -1146,12 +1146,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> forro de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="3"></garantia>
   <peso peso="800"></peso>
@@ -1170,12 +1170,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> acero </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="3"></garantia>
   <peso peso="750"></peso>
@@ -1195,12 +1195,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llanta de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="3"></garantia>
   <peso peso="2000"></peso>
@@ -1220,12 +1220,12 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
 	<material> llanta de goma </material>
   </materiales>
   <tallas>
-	<talla sexo="Hombre", tamano="S"></talla>
-    <talla sexo="Hombre", tamano="M"></talla>
-    <talla sexo="Hombre", tamano="L"></talla>
-	<talla sexo="Mujer", tamano="S"></talla>
-	<talla sexo="Mujer", tamano="M"></talla>
-	<talla sexo="Mujer", tamano="L"></talla>
+	<talla sexo="Hombre" tamano="S"></talla>
+    <talla sexo="Hombre" tamano="M"></talla>
+    <talla sexo="Hombre" tamano="L"></talla>
+	<talla sexo="Mujer" tamano="S"></talla>
+	<talla sexo="Mujer" tamano="M"></talla>
+	<talla sexo="Mujer" tamano="L"></talla>
   </tallas>
   <garantia meses="3"></garantia>
   <peso peso="1800"></peso>
@@ -1235,9 +1235,3 @@ INSERT INTO ProductsModels(productModelID,name,catalogDescription,detalle) VALUE
   </origenes>
 </detalle>'
 );
-
-
-----------Consultando----------
-
----Los modelos que estan hechos de un material dado (nombre)---
-/*SELECT name FROM ProductsModels WHERE detalle/materiales/@material;*/
