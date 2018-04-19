@@ -19,10 +19,9 @@
     
     
     
-    <!ATTLIST talla sexo #REQUIRED>
-    <!ATTLIST talla tamano #REQUIRED>
+    <!ATTLIST talla sexo (hombre|mujer|nino) #REQUIRED>
+    <!ATTLIST talla tamano (L|S|M) #REQUIRED>
     <!ATTLIST origen pais CDATA ID #REQUIRED>
     <!ATTLIST edad minima #REQUIRED>
     <!ATTLIST edad maxima #REQUIRED>
-
 ]>
