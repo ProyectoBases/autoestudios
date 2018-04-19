@@ -1,0 +1,28 @@
+<?xml version = "1.0"?>
+<!-- detalles -->
+<!--Las tallas deben cumplir con la nomenclatura estándar -->
+<!--Los modelos deben indicar mínimo una materia prima -->
+<!--Los modelos deben fabricarse en más de un país. -->
+<!--Todos los modelos deben tener garantía. -->
+<!--Las edades deben ser números -->
+<!--el detalle requiere todos los elementos -->
+<!--los paises no se deben repetir -->
+<!--la materia es un texto-->
+<!DOCTYPE detalle[
+    
+    <!ELEMENT materiales (material)+>
+    <!ELEMENT origen (origenes+)>
+    <!ELEMENT detalle (garantia+)>
+    <!ELEMENT detalle (edad,materiales,tallas,garantia,origenes)+>
+    <!ELEMENT materiales (material #PCDATA)>
+    
+    
+    
+    
+    <!ATTLIST talla sexo #REQUIRED>
+    <!ATTLIST talla tamano #REQUIRED>
+    <!ATTLIST origen pais CDATA ID #REQUIRED>
+    <!ATTLIST edad minima #REQUIRED>
+    <!ATTLIST edad maxima #REQUIRED>
+
+]>
