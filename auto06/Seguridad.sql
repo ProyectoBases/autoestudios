@@ -1,28 +1,7 @@
-CREATE ROLE Administrador;
-CREATE ROLE Cliente;
-
-
-GRANT INSERT
-ON ProductModel
+GRANT EXECUTE
+    ON PA_Administrador
 TO Administrador;
 
-GRANT UPDATE
-ON ProductModel
-TO Administrador;
-
-GRANT SELECT
-ON ProductModel
-TO Administrador;
-
-GRANT DELETE
-ON ProductModel
-TO Administrador;
-
-
-GRANT SELECT
-ON ProductModel
-TO Cliente;
-
-GRANT SELECT
-ON product
+GRANT EXECUTE
+    ON PA_Cliente
 TO Cliente;
