@@ -1,20 +1,16 @@
-CREATE OR REPLACE PACKAGE BODY MantenerModelo AS
+CREATE OR REPLACE PACKAGE PA_Administrador IS
 
-    PROCEDURE InsertarModelo(ProductModelId NUMBER,Name VARCHAR,catalogDescription VARCHAR) AS
-    BEGIN
-    INSERT INTO ProductModel VALUES(ProductModelId,Name,catalogDescription);
-    END InsertarModelo;
-    
-    PROCEDURE ActualizarModelo(ProductModelIdN NUMBER,NameN VARCHAR,catalogDescriptionN VARCHAR) AS
-    BEGIN
-    UPDATE ProductModel SET Name = NameN, catalogDescription = catalogDescriptionN
-    WHERE ProductModelID = ProductModelIdN;
-    END ActualizarModelo;
-    
-    PROCEDURE EliminarModelo (ProductModelIdN NUMBER) AS
-    BEGIN
-    DELETE FROM model WHERE ProductModelId = ProductModelIdN;
-    END EliminarModelo;
-    
+FUNCTION Consultar_Modelo(modelo VARCHAR) RETURN XMLTYPE;
+FUNCTION Consultar_Info_Modelo RETURN SYS_REFCURSOR;
+FUNCTION Consultar_Num_Productos(ciudad VARCHAR) RETURN SYS_REFCURSOR;
 
-END MantenerModelo;
+END PA_Administrador;
+
+/
+
+CREATE OR REPLACE PACKAGE PA_Cliente IS
+
+FUNCTION Consultar_Info_Modelo RETURN SYS_REFCURSOR;
+FUNCTION Consultar_Producto(pais VARCHAR) RETURN SYS_REFCURSOR; 
+
+END PA_Cliente;
